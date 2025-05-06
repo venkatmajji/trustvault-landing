@@ -109,7 +109,7 @@ if user_query:
     st.session_state.answer = result['answer']
     st.markdown(f"<div class='chat-box'><b>TrustVault Agent:</b> {st.session_state.answer.replace('\n', '<br>')}</div>", unsafe_allow_html=True)
 
-st.components.v1.iframe("https://docs.google.com/presentation/d/e/2PACX-1vSDzdc5x-xYZn3vCGhBiUxtK0Tmdkd9ufjXmja6mMaLcIyLkR9M61j_YszleNivSA/embed?start=false&loop=false&delayms=3000", height=550)
+st.components.v1.iframe("https://docs.google.com/presentation/d/e/2PACX-1vTmCikIsdX6Y4be4jQ430PzfsgAwsoe-mUw4Pn-dMPxiX5ZsqQlqYmACHmgLAajiA/pub?start=false&loop=false&delayms=3000", height=550)
 
 st.markdown("### 📥 Download Pitch Deck PDF")
 with st.form("download_form"):
