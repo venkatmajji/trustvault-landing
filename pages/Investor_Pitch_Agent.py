@@ -69,8 +69,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<div class='header-title'>TrustVault Investor Agent</div>", unsafe_allow_html=True)
-st.markdown("<div class='subheader-text'><b>TrustVault solves the problem...</b></div>", unsafe_allow_html=True)
-st.markdown("<div class='section-header'>💬 Ask TrustVault Investor Agent</div>", unsafe_allow_html=True)
+st.markdown("<div class='subheader-text'><b>TrustVault is the immutable audit layer for AI and LLMs. Capture, certify, comply (GRC), and verify all interactions.</b></div>", unsafe_allow_html=True)
+st.markdown("<div class='subheader-text'><b>Only product with WORM+Merkle+root cert + marketplace + audit-first design</b></div>", unsafe_allow_html=True)
+st.markdown("<div class='section-header'>💬 Ask TrustVault Agent if you need more info!</div>", unsafe_allow_html=True)
 
 if "user_query" not in st.session_state:
     st.session_state.user_query = ""
