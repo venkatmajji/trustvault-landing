@@ -20,7 +20,7 @@ def send_pitch_deck_email(receiver_email):
     msg["To"] = receiver_email
     msg["Subject"] = "TrustVault Pitch Deck + Thank You"
 
-    filename = "assets/TrustVault_Investor_One_Pager.pdf"
+    filename = "assets/TrustVault_pitch_deck.pdf"
     with open(filename, "rb") as attachment:
         part = MIMEBase("application", "octet-stream")
         part.set_payload(attachment.read())
