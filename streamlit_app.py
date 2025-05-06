@@ -16,7 +16,7 @@ body {
 .feature-box:hover { background-color: #eef2ff; }
 .footer {text-align: center; padding: 30px; color: gray; margin-top: 50px;}
 .logo {text-align:center; margin-top:20px; margin-bottom:20px;}
-.cta-button {font-size: 20px; padding: 14px; background-color: #2563eb; color: white; border-radius: 8px; text-align: center; display: block; margin: 10px auto; text-decoration: none;}
+.cta-button {font-size: 20px; padding: 14px; background-color: #2563eb; color: black; border-radius: 8px; text-align: center; display: block; margin: 10px auto; text-decoration: none;}
 .cta-button:hover {background-color: #1d4ed8;}
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -35,7 +35,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<a href='/Investor_Pitch_Agent' class='cta-button'>💼 Launch Investor Agent</a>", unsafe_allow_html=True)
-st.markdown("<a href='mailto:founder@trustvault.ai' class='cta-button'>📩 Contact Founders</a>", unsafe_allow_html=True)
+st.markdown("<a href='mailto:venkatmajji@gmail.com' class='cta-button'>📩 Contact Founders</a>", unsafe_allow_html=True)
 
 # ---- Features ----
 st.markdown("<div class='section-title'>✨ Key Features</div>", unsafe_allow_html=True)
